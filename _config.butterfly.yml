@@ -53,6 +53,10 @@ copy:
 social:
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+  fab fa-github: https://github.com/minterjia || Github
+  fas fa-envelope: mailto:431074198@qq.com || Email
+  fab fa-qq: 431074198 || QQ
+  fas fa-rss: https://butterfly.top || 博客
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
@@ -675,7 +679,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/minterjia
   card_announcement:
     enable: true
     content: This is my Blog
