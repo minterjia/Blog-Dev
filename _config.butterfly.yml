@@ -18,15 +18,16 @@
 menu:
   回家: https://home.butterfly.top/ || fas fa-heartbeat
   首页: / || fas fa-home
-  档案: /archives/ || fas fa-archive
+  时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  OneDrive网盘: https://onedrive.butterfly.top/ ||fas fa-compass
-  Qexo: https://qexo.butterfly.top/ ||fa fa-heartbeat
-  Wiki音乐: https://music.minterjia.com/ ||fa fa-heartbeat
-  音乐: /music/ || fas fa-music
-  照片: /Gallery/ || fas fa-images
-  电影: /movies/ || fas fa-video
+  清单||fas fa-list:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+    OneDrive网盘: https://onedrive.butterfly.top/ ||fas fa-compass
+    Qexo: https://qexo.butterfly.top/ ||fa fa-heartbeat
+    Wiki音乐: https://music.minterjia.com/ ||fa fa-heartbeat
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heartbeat
 # Code Blocks (代碼相關)
