@@ -682,7 +682,7 @@ aside:
       link: https://github.com/minterjia
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 总之岁月漫长，然而值得等待。
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -877,6 +877,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="/css/mystyle.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     # - <script src="xxxx"></script>
