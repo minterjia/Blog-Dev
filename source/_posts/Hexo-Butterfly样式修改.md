@@ -1582,82 +1582,6 @@ This is my website, click the button  {% btn 'https://butterfly.js.org',Butterfl
 
 
 
-***
-##  按钮btns
-
->Volantis的按钮使用的是btn和btns标签。btns和butterfly的button不冲突，但是btn会被强制渲染，导致部分参数失效,而且btn的效果还是butterfly的button更好看些。所以就只适配了btns。
-
-{% tabs note %}
-<!-- tab 标签语法-->
-```
-{% btns 样式参数 %}
-{% cell 标题, 链接, 图片或者图标 %}
-{% cell 标题, 链接, 图片或者图标 %}
-{% endbtns %}
-```
-<!-- endtab -->
-
-<!-- tab 配置参数 -->
-1. 圆角样式: `rounded`, `circle`
-2. 增加文字样式: 可以在容器内增加 `标题` 和 `描述文字`
-
-3. 布局方式: 默认为自动宽度，适合视野内只有一两个的情况。
-
-| 参数 | 含义 |
-| --- | --- |
-| wide | 宽一点的按钮 |
-| fill | 填充布局，自动铺满至少一行，多了会换行。 |
-| center | 居中，按钮之间是固定间距。 |
-| around | 居中分散 |
-| grid2 | 等宽最多 2 列，屏幕变窄会适当减少列数。 |
-| grid3 | 等宽最多 3 列，屏幕变窄会适当减少列数。 |
-| grid4 | 等宽最多 4 列，屏幕变窄会适当减少列数。 |
-| grid5 | 等宽最多 5 列，屏幕变窄会适当减少列数。 |
-<!-- endtab -->
-
-<!-- tab 样式预览 -->
-
-<!-- endtab -->
-
-<!-- tab 示例源码 -->
-1. 如果需要显示类似「团队成员」之类的一组含有头像的链接：
-```
-{% btns circle grid5 %}
-{% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %}
-{% cell xaoxuu, https://xaoxuu.com, https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png %}
-{% endbtns %}
-```
-2. 或者含有图标的按钮：
-```
-{% btns rounded grid5 %}
-{% cell 下载源码, /, fas fa-download %}
-{% cell 查看文档, /, fas fa-book-open %}
-{% endbtns %}
-```
-3. 圆形图标 + 标题 + 描述 + 图片 + 网格5列 + 居中
-```
-{% btns circle center grid5 %}
-<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
-  <i class='fab fa-apple'></i>
-  <b>心率管家</b>
-  {% p red, 专业版 %}
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_pro.png'>
-</a>
-<a href='https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1'>
-  <i class='fab fa-apple'></i>
-  <b>心率管家</b>
-  {% p green, 免费版 %}
-  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_lite.png'>
-</a>
-{% endbtns %}
-```
-<!-- endtab -->
-{% endtabs %}
-
-
 
 
 
@@ -1769,6 +1693,7 @@ title Key elements in Product X
 "Magnesium" : 10.01
 "Iron" : 5
 {% endmermaid %}
+
 ***
 ## github卡片 ghcard
 {% tabs note %}
@@ -2264,80 +2189,16 @@ hahaha <span><img src='https://cdn.bilicdn.tk/gh/volantis-x/cdn-emoji/tieba/%E6%
 </details>
 ```
 ***
-##  Fancybox
-```
-{% fancybox 参数, 列数 %}
-![图片描述](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/B18FCBB3-67FD-48CC-B4F3-457BA145F17A.jpeg)
-![](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg)
-{% endfancybox %}
-```
-对齐方向: `left`, `center`, `right`
-缩放: `stretch`
-列数: 逗号后面直接写列数，支持 2 ～ 8 列。设定列列数之后就是「多行多图」布局，此时图片默认左对齐。为了避免图片大小不一，建议搭配 `stretch` 来时图片放大填充。
-###  单张图片
-```
-<div class="gallery ">
-    <p>
-    <div class="fancybox">
-        <img src="https://api.minterjia.com/api"
-            alt="图片描述">
-        <span class="image-caption">
-            图片描述
-        </span>
-    </div>
-    </p>
-</div>
-<!-- TAG写法（不建议）
-{% fancybox %}
-![图片描述](https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg)
-{% endfancybox %}
--->
-```
 
-<div class="gallery ">
-    <p>
-    <div class="fancybox">
-        <img src="https://api.minterjia.com/api"
-            alt="图片描述">
-        <span class="image-caption">
-            图片描述
-        </span>
-    </div>
-    </p>
-</div>
+
+## 引入图片
+```
+![米尔嘉](https://api.minterjia.com/api)
+```
+![米尔嘉](https://api.minterjia.com/api)
 
 
 
-###  一行多个图片（不换行）
-```
-<div class="gallery ">
-    <p>
-    <div class="fancybox">
-        <img src="https://api.minterjia.com/api"
-             alt="图片描述">
-        <span class="image-caption">图片描述</span>
-    </div><br>
-    <div class="fancybox">
-        <img src="https://api.minterjia.com/api"
-             alt="图片描述">
-        <span class="image-caption">图片描述</span>
-    </div><br>
-    <div class="fancybox">
-        <img src="https://api.minterjia.com/api"
-             alt="图片描述">
-        <span class="image-caption">图片描述</span>
-    </div>
-    </p>
-</div>
-
-<!-- TAG写法 不推荐
-{% fancybox stretch,3 %}
-![图片描述](https://api.minterjia.com/api)
-![图片描述](https://api.minterjia.com/api)
-![图片描述](https://api.minterjia.com/api)
-{% endfancybox %}
--->
-```
 
 ***
 ##  Aplayer
