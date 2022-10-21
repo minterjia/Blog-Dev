@@ -11,4 +11,4 @@ top_img:
 comments: false
 ---
 
-This post no cover 
+This post no cover 这篇文章没有封面

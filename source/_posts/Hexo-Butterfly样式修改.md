@@ -7,7 +7,7 @@ categories: Butterfly
 keywords: 'hexo,butterfly,主题,样式'
 description: Butterfly样式指南
 sticky: 1000
-cover:  /img/background2.png
+cover:  /img/background.png
 abbrlink: 9c783434
 date: 2022-08-30 22:31:46
 ---
