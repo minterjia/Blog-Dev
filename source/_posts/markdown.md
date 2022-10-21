@@ -1,12 +1,11 @@
 ---
 title: Markdown Style test
 tags:
-  - highlight
-  - Bar
+  - Markdown
 categories:
   - Markdown
 abbrlink: '89757140'
-date: 2018-07-24 23:31:06
+date: 2022-10-20 23:31:06
 mathjax: true
 cover: /img/background.png
 keywords: 'hexo,butterfly,主題,doc,教程,文檔,Markdown'

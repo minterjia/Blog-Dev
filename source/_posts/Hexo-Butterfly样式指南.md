@@ -2,7 +2,7 @@
 title: Hexo-Butterfly样式指南
 tags:
   - Hexo
-  - butterfly
+  - Butterfly
 categories: Butterfly
 keywords: 'hexo,butterfly,主题,样式'
 description: Butterfly样式指南

@@ -1,5 +1,8 @@
 ---
 title: Hello World
+tags:
+  - 默认标签
+categories: 默认分类
 cover: /img/background.png
 abbrlink: 4a17b156
 ---
