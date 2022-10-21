@@ -19,8 +19,8 @@ menu:
   首页: / || fas fa-home
   米尔嘉: https://home.butterfly.top/ || fas fa-heartbeat
   时间轴: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  分类目录: /categories/ || fas fa-folder-open
+  标签分类: /tags/ || fas fa-tags
   清单||fas fa-list:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
@@ -29,11 +29,11 @@ menu:
     Qexo: https://qexo.butterfly.top/ ||fa fa-heartbeat
     Wiki音乐: https://music.minterjia.com/ ||fa fa-heartbeat
   友链: /link/ || fas fa-link
-  关于: /about/ || fas fa-heart
+  关于: /about/ || fas fa-heartbeat
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -71,7 +71,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   preload: false
   CDN:
 
