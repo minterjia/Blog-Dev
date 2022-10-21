@@ -553,7 +553,7 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -612,7 +612,7 @@ display_mode: dark
 # Beautify (美化頁面顯示)
 beautify:
   enable: true
-  field: post # site/post
+  field: site # site/post
   title-prefix-icon: # '\f0c1'
   title-prefix-icon-color: # '#F47466'
 
@@ -778,7 +778,7 @@ rightside_item_order:
 
 # medium-zoom
 # https://github.com/francoischalifour/medium-zoom
-medium_zoom: true
+medium_zoom: false
 
 # fancybox
 # http://fancyapps.com/fancybox/3/
@@ -879,7 +879,7 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/mystyle.css">
-    - <link rel="stylesheet" href="/css/scrollbar.css">
+    # - <link rel="stylesheet" href="/css/scrollbar.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <div class="aplayer no-destroy" data-id="7610490853" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
