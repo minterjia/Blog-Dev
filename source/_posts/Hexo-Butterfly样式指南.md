@@ -130,6 +130,48 @@ date: 2022-08-30 22:31:46
 ***
 
 ## 常用外挂标签
+```
+{% note blue 'fas fa-bullhorn' %}
+
+{% endnote %}
+
+{% note green 'fas fa-rocket' %}
+
+{% endnote %}
+
+{% note orange 'fas fa-magic' %}
+
+{% endnote %}
+
+{% note info %}
+
+{% endnote %}
+
+{% note blue 'fas fa-train' %}
+
+{% endnote %}
+
+{% note blue 'fas fa-bullhorn' %}
+
+Butterfly
+
+{% endnote %}
+
+{% note green 'fas fa-rocket' %}
+
+Butterfly
+
+{% endnote %}
+
+{% note orange 'fas fa-magic' %}
+
+
+Butterfly
+
+{% endnote %}
+
+```
+
 {% note blue 'fas fa-bullhorn' %}
 
 {% endnote %}
