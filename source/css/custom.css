@@ -7,3 +7,40 @@
   left: 0 !important;
   /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
+
+
+
+
+
+#page .tag-cloud-list a {
+    color: #f7f7fa !important;
+    font-size: 1.4em !important;
+    padding: 0.2em 0.5em;
+    background: #30343f;
+    margin: 0.5em 0.5em;
+    border-radius: 12px;
+    border: 1px solid #282829;
+    box-shadow: 0 8px 16px -4px #00000050;
+}
+
+
+#page .category-lists a {
+    color: #f7f7fa !important;
+    font-size: 1.4em !important;
+    padding: 0.2em 0.5em;
+    background: #30343f;
+    margin: 0.5em 0.5em;
+    border-radius: 12px;
+    border: 1px solid #282829;
+    box-shadow: 0 8px 16px -4px #00000050;
+}
+
+
+
+
+
+
+
+
+
+
