@@ -1,0 +1,30 @@
+.title-and-tips
+    h1.page-title(style='display: inline;')= page.title
+    .page-tips 静态部署版
+#bber
+    section.timeline.page-1
+        ul#waterfall.list.show
+            each i in site.data.essay
+                each item, index in i.essay_list
+                    if index < 30
+                        li.item
+                            .bber-content
+                                p.datacont= item.content
+                                    if item.image
+                                        a.bber-content-img(href=item.image, target="_blank")
+                                            img(src=item.image)
+                            .bber-bottom
+                                .bber-info
+                                    - var datedata = new Date(item.date).toISOString()
+
+                                    time.datatime(datetime= item.date)= datedata
+                                    if item.link
+                                       a.bber-content-link(href=item.link, target="_blank", rel="external nofollow", title="跳转到短文指引的链接")
+                                         i.fas.fa-link
+                                         | 链接
+                                a.bber-reply(onclick=`rightMenuCommentText('${item.content}')`)
+                                  i.fa-solid.fa-message
+
+#bber-tips(style='color: var(--jayhrn-secondtext);')
+    | - 只展示最近30条短文 -
+

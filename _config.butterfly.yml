@@ -164,7 +164,8 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - /img/background.png
+    - https://minterjia.com/upload/2022/12/001322-16644680029df5.webp
+    # - /img/background.png
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -902,9 +903,13 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    # - <link rel="stylesheet" href="/css/scrollbar.css">
-    - <link rel="stylesheet" href="/css/custom.css">
-    - <link rel="stylesheet" href="/css/mystyle.css">
+     - <link rel="stylesheet" href="/css/scrollbar.css">
+     - <link rel="stylesheet" href="/css/custom.css">
+     - <link rel="stylesheet" href="/css/mystyle.css">
+     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
+     - <script src="https://cdn.jsdelivr.net/gh/Jayhrn/CDN/waterfall.min.js"></script> # 实现短文瀑布流需要使用
+    
   bottom:
     # 取消鼠标右键以及增加首页弹窗
     - <script src='/js/jscustom.js'></script>

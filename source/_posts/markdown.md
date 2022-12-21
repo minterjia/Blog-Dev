@@ -7,7 +7,7 @@ categories:
 abbrlink: '89757140'
 date: 2022-10-20 23:31:06
 mathjax: true
-cover: /img/background.png
+cover: https://minterjia.com/upload/2022/12/001322-16644680029df5.webp
 keywords: 'hexo,butterfly,主題,doc,教程,文檔,Markdown'
 comments: false
 ---

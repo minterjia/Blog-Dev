@@ -6,7 +6,7 @@ tags:
 categories: Butterfly
 keywords: 'hexo,butterfly,主题,样式'
 description: Butterfly样式指南
-cover:  /img/background.png
+cover:  https://minterjia.com/upload/2022/12/001322-16644680029df5.webp
 sticky: 100
 abbrlink: 5a902a5f
 date: 2022-08-30 22:31:46
