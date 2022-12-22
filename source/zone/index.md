@@ -5,7 +5,7 @@ type: 'bb'
 comments: true
 aside: false
 ---
-<link rel="stylesheet" href="/css/bbtalk2.css"/>
+<link rel="stylesheet" href="/css/bbtalk.css"/>
 <script src="/js/bibi.js"></script>
 
 <div id="bibi">

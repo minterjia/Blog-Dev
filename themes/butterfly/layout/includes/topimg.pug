@@ -1,0 +1,28 @@
+html
+  head
+  body
+    main.layout.hide-aside#content-inner
+      #page
+        h1.page-title 书籍推荐
+        #article-container
+          #page
+            h1.page-title books
+            #article-container
+              include ./bbTimeList.pug
+              .author-content-item.like-book.single.share
+                .card-content
+                  .author-content-item-tips 书籍
+                  span.author-content-item-title
+                    | 静下来细细
+                    span.inline-word 品味着，
+                  span.author-content-item-title
+                    | 人间的
+                    span.inline-word 旧事。
+                  .content-bottom
+                    .tips 跟知雨查看更多书影音
+                  .banner-button-group
+                    a.banner-button(target='_blank', rel='noopener', href='https://www.douban.com/')
+                      i.fas.fa-circle-chevron-right
+                      span.banner-button-text 感受更多
+              blockquote
+                p 眼睛到不了的地方，文字可以。这里见证一个陌生人的成长，这有关于学习、开发相关的问题和看法，还有生活和分享。夏日有着迟暮的霞光正如晚来的你皆是笑意。

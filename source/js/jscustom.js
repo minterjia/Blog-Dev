@@ -33,37 +33,3 @@ if (123 == window.event.keyCode) return cn(), window.event.returnValue = !1, !1
 }, $(document).keydown((function(e) {
 if (1 == e.ctrlKey && 83 == e.keyCode) return console.log("ctrl+s"), !1
 }));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-if (document.querySelector('#bber-talk')) {
-      var swiper = new Swiper('.swiper-container', {
-        direction: 'vertical', // 垂直切换选项
-        loop: true,
-        autoplay: {
-        delay: 3000,
-        pauseOnMouseEnter: true
-      },
-      });
-    }

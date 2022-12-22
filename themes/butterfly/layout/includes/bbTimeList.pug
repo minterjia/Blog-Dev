@@ -1,5 +1,6 @@
 #bbTimeList.bbTimeList.container
     i.bber-logo.iconfont.icon-heidong(onclick=`pjax.loadUrl("/essay/")` title="即刻短文")
+    i.fas.fa-shuffle
     #bbtalk.swiper-container.swiper-no-swiping(tabindex="-1")
         #bber-talk.swiper-wrapper(onclick=`pjax.loadUrl("/essay/")`)
             each i in site.data.essay
@@ -18,7 +19,7 @@
             autoplay: {
                 delay: 3000,
                 disableOnInteraction: true,
-                // pauseOnMouseEnter: !0 //鼠标放上去不轮播
+                pauseOnMouseEnter: !0 //鼠标放上去不轮播
             }
         })
 

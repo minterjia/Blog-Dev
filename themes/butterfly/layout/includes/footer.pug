@@ -1,84 +1,79 @@
-html
-  head
-    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css', media='all', onload='this.media=\'all\'')
-    link(rel='stylesheet', href='/css/footer.css')
-  body
-    footer#footer
-      #footer-wrap
-        .copyright ©2022 By Butterfly
-        .framework-info
-          span 框架 
-          a(target='_blank', rel='noopener', href='https://hexo.io') Hexo
-          span.footer-separator |
-          span 主题 
-          a(target='_blank', rel='noopener', href='https://github.com/jerryc127/hexo-theme-butterfly') Butterfly
-        .footer_custom_text
-          #footer-wrap
-            #footer_deal
-              a.social-icon(href='mailto:431074198@qq.com', target='_blank', title='Email', rel='external nofollow noopener noreferrer')
-                i.fas.fa-envelope
-              a.social-icon(href='https://github.com/minterjia', target='_blank', title='Github', rel='external nofollow noopener noreferrer')
-                i.fab.fa-github
-              a.social-icon(href='https://space.bilibili.com/440124216', target='_blank', title='Bilibili', rel='external nofollow noopener noreferrer')
-                i.fa-brands.fa-bilibili
-              a.social-icon(href='https://music.163.com/#/user/home?id=1314662491', target='_blank', title='网易云', rel='external nofollow noopener noreferrer')
-                i.fa-solid.fa-compact-disc
-            #mj-footer
-              .footer-group
-                h3.footer-title
-                  | 推荐
-                  i.fa.fa-fire(style='color:var(--mj-red);padding-left:5px;')
-                .footer-links
-                  a.footer-item(href='https://1100dh.com/') 千百导航
-                  a.footer-item(href='https://www.bootcdn.cn/') BootCDN
-                  a.footer-item(href='https://staticfile.org/') StaticfileCDN
-                  a.footer-item(href='https://www.jsdelivr.com/') JsdelivrCDN
-                  a.footer-item(href='https://www.runoob.com/') 菜鸟教程
-                  a.footer-item(href='https://tooltt.com/') 在线工具箱
+#footer_deal
+  a.deal_link(href="" title="mail")
+    i.fas.fa-shuffle
+  a.deal_link(href="" title="qq" target="_blank")
+    i.fas.fa-shuffle
+  a.deal_link(href="" title="微博" target="_blank")
+    i.fas.fa-shuffle
+  a.deal_link(href="https://github.com/minterjia" title="github"  target="_blank")
+    i.fas.fa-shuffle
+  img.footer_mini_logo.entered.loading(style="border-radius:50%" src='https://www.minterjia.com/upload/2022/09/847A769F7A6E985600485E03F7CF8C86.png' onclick="btf.scrollToDest(0,500)" title="返回顶部")
+  a.deal_link(href="" title="dribbble")
+    i.fas.fa-shuffle
+  a.deal_link(href="" title="facebook" target="_blank")
+    i.fas.fa-shuffle
+  a.deal_link(href="" title="Twitter" target="_blank")
+    i.fas.fa-shuffle
+  a.deal_link(href="" title="Telegram" target="_blank")
+    i.fas.fa-shuffle
+#Jay-footer
+  .footer-group
+    h3.footer-title 直达
+    .footer-links
+      a.footer-item(href="/" target="_blank") 我的主页
+      a.footer-item(href="/music") 音乐欣赏
+      a.footer-item(onclick='toRandomPost()') 随机文章
+      a.footer-item(onclick="toRandomFlink()") 随机友链
+      a.footer-item(onclick='btf.scrollToDest(0,500)') 回到顶部
+ 
+  .footer-group
+    h3.footer-title 分类
+    .footer-links
+      a.footer-item(href="/categories/📚学习笔记/") 学习笔记
+      a.footer-item(href="/categories/🦋魔改教程/") 魔改教程
+      a.footer-item(href="/categories/🌈算法笔记/") 算法笔记
+      a.footer-item(href="/categories/📙语法教程/") 语法教程
+  .footer-group
+    h3.footer-title 关于
+    .footer-links
+      a.footer-item(href="/about/") 关于我
+      a.footer-item(href="/charts/") 博客统计
+      a.footer-item(href="/archives") 文章归档
+      a.footer-item(href="/update") 更新记录
+  .footer-group
+    h3.footer-title 友链
+    .footer-links#friend-links-in-footer
+  .footer-group
+    h3.footer-title 协议
+    .footer-links
+      a.footer-item(href="/privacy/") 隐私协议
+      a.footer-item(href="/cookies/") Cookie
+      a.footer-item(href="/cc/") 版权协议
+#footer-banner
+  .footer-banner-links
+    .footer-banner-left
+      .footer-banner-left
+        #footer-banner-tips
+        script(src='https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js')
+        script.
+          var typed = new Typed("#footer-banner-tips", {
+            strings: ["念念不忘，必有回响。", "Never forget, there will be echoes."],
+            startDelay: 200,
+            backDelay: 2000,
+            typeSpeed: 100,
+            loop: true,
+            backSpeed: 20
+          })
 
-              .footer-group
-                h3.footer-title 生活
-                  i.fa.fa-fire(style='color:var(--mj-red);padding-left:5px;')
-                .footer-links
-                  a.footer-item(href='') 安然无恙
-                  a.footer-item(href='') 心若所动
-                  a.footer-item(href='') 岁月漫长
-                  a.footer-item(href='') 值得期待
-                  a.footer-item(href='') 都在变好
-              .footer-group
-                h3.footer-title 博客导航
-                  i.fa.fa-fire(style='color:var(--mj-red);padding-left:5px;')
-                .footer-links
-                  a.footer-item(target='_blank', rel='external nofollow noopener noreferrer', href='https://butterfly.top') 博客首页
-                  a.footer-item(href='https://butterfly.top/categories/') 文章分类
-                  a.footer-item(href='https://butterfly.top/tegs/') 标签分类
-                  a.footer-item(href='https://butterfly.top/link/') 友情链接
-                  a.footer-item(href='https://butterfly.top/about/') 关于作者
-              .footer-group
-                h3.footer-title 友情链接
-                  i.fa.fa-fire(style='color:var(--mj-red);padding-left:5px;')
-                .footer-links
-                  a.footer-item(target='_blank', rel='external nofollow noopener noreferrer', href='https://butterfly.top') Hexo-Butterfly
-                  a.footer-item(href='https://butterfly.wiki') Hexo-Butterfly
-                  a.footer-item(href='https://butterfly.love') Hexo-Butterfly
-                  a.footer-item(href='https://butterfly.js.cn') Halo-Joe2.0
-                  a.footer-item(href='https://fluid.hexo.run') Hexo-Fluid
-                  a.footer-item(href='https://monie.hexo.run') Hexo-Monie
-              .footer-group
-                h3.footer-title 服务
-                  i.fa.fa-fire(style='color:var(--mj-red);padding-left:5px;')
-                .footer-links
-                  a.footer-item(href='mailto:431074198@qq.com') 联系方式
-                  a.footer-item(target='_blank', rel='noopener', href='https://github.com/minterjia') GitHub
-                  a.footer-item(target='_blank', rel='noopener', href='https://vercel.com/minterjia') vercel
-                  a.footer-item(target='_blank', rel='noopener', href='https://codepen.io/minterjia') codepen
-            #footer-info
-              .footer-info-links
-                .footer-info-left
-                  #footer-info-tips ©2022  By  Butterfly
-                .footer-info-right
-                  a.footer-info-link(target='_blank', rel='noopener', href='https://butterfly.js.org/') 主题
-                  a.footer-info-link(href='https://butterfly.top/about') 关于
-                  a.footer-info-link(href='https://butterfly.top/atom.xml') 订阅
-                  a.footer-info-link(href='https://butterfly.top/') 鸣谢
-                  a.footer-info-link(target='_blank', rel='noopener', href='https://butterfly.top/') 总之岁月漫长，然而值得等待。
+    .footer-banner-right
+      a.footer-banner-link(href="https://hexo.io/zh-cn/" title="Hexo") 框架
+      a.footer-banner-link |
+      a.footer-banner-link(href="https://github.com/jerryc127/hexo-theme-butterfly" title="theme") 主题
+      a.footer-banner-link |
+      a.footer-banner-link(href="/atom.xml" title="RSS") 订阅
+      a.footer-banner-link |
+      a.footer-banner-link(href="/about/" title="about") 关于
+      a.footer-banner-link |
+      a.footer-banner-link.cc(href="/cc/" title="cc协议")
+        i.iconfont.icon-cc
+        span 协议
