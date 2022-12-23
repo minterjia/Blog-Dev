@@ -35,20 +35,38 @@
 /*样式美化开始*/
 
 
-/*.recent-top-post-group {
-    border-radius: 12px;
+
+
+
+/*.author-content-item.single.like-movie {
+    height: 19rem;
+    background: url(https://cdn.jayhrn.com/img/page/moviePage.webp) center top / cover no-repeat;
+    color: var(--Jay-white);
     overflow: hidden;
-    overflow-x: auto;
-    width: 1300px;
-    margin-bottom: 0rem;
-}*/
-/*.layout {
-    max-width: 1400px;
-    justify-content: center;
 }*/
 
 
+/*.author-content-item.single.like-book {
+    height: 19rem;
+    background: url(https://cdn.jayhrn.com/img/page/booksPage.webp) center top / cover no-repeat;
+    color: var(--Jay-white);
+    overflow: hidden;
+}*/
 
+.author-content-item.single.like-movie {
+    height: 19rem;
+    background: url(https://minterjia.com/upload/2022/12/moviePage.webp) center top / cover no-repeat;
+    color: var(--Jay-white);
+    overflow: hidden;
+}
+
+
+.author-content-item.single.like-book {
+    height: 19rem;
+    background: url(https://minterjia.com/upload/2022/12/booksPage.webp) center top / cover no-repeat;
+    color: var(--Jay-white);
+    overflow: hidden;
+}
 
 
 

@@ -6,7 +6,7 @@
         ul#waterfall.list.show
             each i in site.data.essay
                 each item, index in i.essay_list
-                    if index < 30
+                    if index < 50
                         li.item
                             .bber-content
                                 p.datacont= item.content
@@ -26,5 +26,5 @@
                                   i.fa-solid.fa-message
 
 #bber-tips(style='color: var(--jayhrn-secondtext);')
-    | - 只展示最近30条短文 -
+    | - 只展示最近50条短文 -
 

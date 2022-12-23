@@ -1,0 +1,17 @@
+html
+  head
+  body
+    main.layout.hide-aside#content-inner
+      #page
+        include ./bbTimeList.pug
+        h1.page-title 即刻短文
+        .author-content.author-content-item.essayPage.single
+          .card-content
+            .author-content-item-tips 即刻短文
+            span.author-content-item-title 分享生活的小确幸
+            .content-bottom
+              .tips 使用 即刻短文静态部署版 构建
+            .banner-button-group
+              a.banner-button(onclick='pjax.loadUrl("/posts/207c/")', data-pjax-state)
+                i.fas.fa-circle-chevron-right
+                span.banner-button-text 部署项目
