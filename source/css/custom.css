@@ -53,13 +53,20 @@
     overflow: hidden;
 }*/
 
+/*.author-content.author-content-item.essayPage {
+    height: 19rem;
+    background: url(https://cdn.jayhrn.com/img/page/essayPage.webp) center center / cover no-repeat;
+    color: var(--Jay-white);
+    overflow: hidden;
+    margin-top: 0px;
+}*/
+
 .author-content-item.single.like-movie {
     height: 19rem;
     background: url(https://minterjia.com/upload/2022/12/moviePage.webp) center top / cover no-repeat;
     color: var(--Jay-white);
     overflow: hidden;
 }
-
 
 .author-content-item.single.like-book {
     height: 19rem;
@@ -68,16 +75,23 @@
     overflow: hidden;
 }
 
+.author-content.author-content-item.essayPage {
+    height: 19rem;
+    background: url(https://minterjia.com/upload/2022/12/essayPage.webp) center center / cover no-repeat;
+    color: var(--Jay-white);
+    overflow: hidden;
+    margin-top: 0px;
+}
 
 
 
 
-.author-content-item.single.like-book {
+/*.author-content-item.single.like-book {
     height: 19rem;
     background: url(https://cdn.jayhrn.com/img/page/booksPage.webp) center top / cover no-repeat;
     color: var(--Jay-white);
     overflow: hidden;
-}
+}*/
 
 .author-content-item.single {
     width: 100%;
