@@ -927,7 +927,7 @@ inject:
     #字体
 
     # jayhrn样式
-    - <link rel="stylesheet" href="https://minterjia.com/upload/2022/12/jayhrn.css">
+    - <link rel="stylesheet" href="https://minterjia.com/upload/jayhrn.css">
     # jayhrn样式
 
     # 动态分类条
