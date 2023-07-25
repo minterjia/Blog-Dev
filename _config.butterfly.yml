@@ -117,11 +117,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.ico
+favicon: https://minterjia.com/upload/2023/07/v286.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/background.png
+  img: https://minterjia.com/upload/2023/07/v286.png
   effect: false
 
 # Disable all banner image
@@ -164,7 +164,7 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://minterjia.com/upload/2022/12/001322-16644680029df5.webp
+    - https://minterjia.com/upload/2023/07/42.png
     # - /img/background.png
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
@@ -904,13 +904,13 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     # - <link rel="stylesheet" href="/css/scrollbar.css">
-    - <link rel="stylesheet" href="/css/custom.css">
-    - <link rel="stylesheet" href="/css/mystyle.css">
+    #- <link rel="stylesheet" href="/css/custom.css">
+    #- <link rel="stylesheet" href="/css/mystyle.css">
 
     # 实现短文瀑布流
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
-    - <script src="https://cdn.jsdelivr.net/gh/Jayhrn/CDN/waterfall.min.js"></script> # 实现短文瀑布流需要使用
+    #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/bb/showbb_in_index.css">
+    #- <script src="https://cdn.jsdelivr.net/gh/Jayhrn/CDN/waterfall.min.js"></script> # 实现短文瀑布流需要使用
     # 实现短文瀑布流
 
     #- <link rel="stylesheet" href="https://blog.lovelu.top/jayhrn/jayhrn.css">
@@ -922,36 +922,36 @@ inject:
 
 
     #字体
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Jayhrn/fontawesome-pro/css/all.min.css">
-    - <link rel="stylesheet" href="https://npm.elemecdn.com/remixicon@2.5.0/fonts/remixicon.css">
+    #- <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Jayhrn/fontawesome-pro/css/all.min.css">
+    #- <link rel="stylesheet" href="https://npm.elemecdn.com/remixicon@2.5.0/fonts/remixicon.css">
     #字体
 
     # jayhrn样式
-    - <link rel="stylesheet" href="https://minterjia.com/upload/jayhrn.css">
+    #- <link rel="stylesheet" href="https://minterjia.com/upload/jayhrn.css">
     # jayhrn样式
 
     # 动态分类条
-    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/mainColor/heoMainColor.css">
-    - <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/categoryBar/categoryBar.css">
-    - <script async src="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/categoryBar/categoryBar.js"></script>
+    #- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/mainColor/heoMainColor.css">
+    #- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/categoryBar/categoryBar.css">
+    #- <script async src="https://cdn.jsdelivr.net/npm/js-heo@1.0.11/categoryBar/categoryBar.js"></script>
     # 动态分类条
 
   bottom:
     # - <script src="xxxx"></script>
     # 取消鼠标右键以及增加首页弹窗
-    - <script src='/js/jscustom.js'></script>
+    #- <script src='/js/jscustom.js'></script>
     # 取消鼠标右键以及增加首页弹窗
 
     # Aplayer音乐播放器
-    - <div class="aplayer no-destroy" data-id="7610490853" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
+    #- <div class="aplayer no-destroy" data-id="7610490853" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="false" muted></div>
     # Aplayer音乐播放器
 
     # 明月浩空音乐播放器
-    - <script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script>
-    - <script src="https://myhkw.cn/api/player/166159348587" id="myhk" key="166159348587" m="1"></script>
+    #- <script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script>
+    #- <script src="https://myhkw.cn/api/player/166159348587" id="myhk" key="166159348587" m="1"></script>
     # 明月浩空音乐播放器
 
-    - <script src="/js/custom.js"></script>
+    #- <script src="/js/custom.js"></script>
     #- <script src="https://blog.lovelu.top/js/jay.js"></script>
     # - <link rel="stylesheet" href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/Swiper/8.0.6/swiper-bundle.min.css">
   

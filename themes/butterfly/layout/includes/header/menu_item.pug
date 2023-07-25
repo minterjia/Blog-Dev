@@ -17,7 +17,7 @@ if theme.menu
               i.fa-fw(class=trim(labelArray[1]))
             span=' '+ trim(labelArray[0])
             i.fas.fa-chevron-down
-          ul.menus_item_child(style=`left:`+ (-48 * Object.keys(value).length + 65) + `px;`)
+          ul.menus_item_child
             each val,lab in value 
               - const valArray = val.split('||')
               li
